@@ -207,7 +207,7 @@
 
                 
                 $("#oxygen").text((oxy)+" %");
-                $("#heartRate").text((heart)+" ");
+                $("#heartRate").text((heart)+" BPM");
                 //สร้างคำสั่งสำหรับการเปลี่ยนสีiconตามเงื่อนไข
                 if (oxy>=96){
                     status="Normal";
