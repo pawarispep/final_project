@@ -199,7 +199,7 @@
                 let chan=data.chan;
                 var oxy=feed[1].field2;
                 var heart=feed[1].field1;
-                //var oxy=92;
+                //var oxy=80;
                 //ไว้ปรับแบบล็อกค่า
                 //เนื่องจากsensorวัดค่าจริงๆได้แค่82ซึ่งผิดต่อหลักความจริงเพราะค่าปกติของมนุษย์จะอยู่ที่96%
                 console.log(feed);
@@ -207,7 +207,7 @@
 
                 
                 $("#oxygen").text((oxy)+" %");
-                $("#heartRate").text((heart)+" BPM");
+                $("#heartRate").text((heart)+" ");
                 //สร้างคำสั่งสำหรับการเปลี่ยนสีiconตามเงื่อนไข
                 if (oxy>=96){
                     status="Normal";
